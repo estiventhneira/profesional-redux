@@ -16,10 +16,21 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  max-height: 100vh;
 }
 
 .tabla td {
   text-align: left;
   padding: 1rem;
+}
+
+#menu {
+  background-color: #253a43;
+  padding: 20px;
+  font-size: 15px;
+}
+
+#menu a {
+  color: white;
+  padding: 0 10px;
 }
